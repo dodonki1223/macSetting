@@ -1526,7 +1526,7 @@
                         ]
                     },
                     {
-                        "description": "ESC、Command+W、TAB、Shift+TAB",
+                        "description": "Command+W、ESC、TAB、Shift+TAB",
                         "manipulators": [
                             {
                                 "from": {
@@ -1613,7 +1613,7 @@
                         ]
                     },
                     {
-                        "description": "Eneter、BackSpace、DELETE、スクリーンショット",
+                        "description": "Eneter、BackSpace、DELETE、単語選択、スクリーンショット、元に戻す、切り取り、コピー、貼り付け",
                         "manipulators": [
                             {
                                 "from": {
@@ -1669,6 +1669,35 @@
                                     {
                                         "key_code": "delete_forward"
                                     }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "f",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                        { 
+                                            "key_code": "left_arrow",
+                                            "modifiers": [
+                                                "left_option"
+                                            ] 
+                                        },
+                                        { 
+                                            "key_code": "right_arrow",
+                                            "modifiers": [
+                                                "left_option",
+                                                "left_shift"
+                                            ] 
+                                        }
                                 ],
                                 "type": "basic"
                             },
