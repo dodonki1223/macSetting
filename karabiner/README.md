@@ -120,13 +120,14 @@ Karabinerとは別でMacのキーボードの設定で下記設定をOS側の機
 | 英数 + r  |  TAB               |
 | 英数 + t  |  Shift + TAB       |
 
-### Enter、BackSpace、DELETE、スクリーンショット
+### Enter、BackSpace、DELETE、単語選択、スクリーンショット
 
 | キー      |  結果               | 
 |:----------|:-------------------:|
 | 英数 + a  |  Enter              |
 | 英数 + s  |  BackSpace          |
 | 英数 + d  |  DELETE             |
+| 英数 + f  |  単語選択           |
 | 英数 + g  |  スクリーンショット |
 
 ### 元に戻す、切り取り、コピー、貼り付け
