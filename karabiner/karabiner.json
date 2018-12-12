@@ -1678,9 +1678,6 @@
                                     "modifiers": {
                                         "mandatory": [
                                             "right_option"
-                                        ],
-                                        "optional": [
-                                            "any"
                                         ]
                                     }
                                 },
