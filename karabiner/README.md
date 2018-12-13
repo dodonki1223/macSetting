@@ -36,11 +36,12 @@ Simple Modificationsで下記の通りキーを変更しています
 
 Karabinerとは別でMacのキーボードの設定で下記設定をOS側の機能で追加する
 
-| キー        |  結果                   | 
-|:------------|:-----------------------:|
-| control + l |  情報を見る             |
-| control + k |  新規フォルダを作成     |
-| control + d |  ゴミ箱に入れる         |
+| キー                  |  結果                | 
+|:----------------------|:--------------------:|
+| control + l           |  情報を見る          |
+| control + k           |  新規フォルダを作成  |
+| control + d           |  ゴミ箱に入れる      |
+| control + command + v |  ここに項目を移動    |
 
 ### Chrome独自のキー設定
 
@@ -111,10 +112,11 @@ Karabinerとは別でMacのキーボードの設定で下記設定をOS側の機
 | 英数 + n  |  8     |
 | 英数 + ,  |  9     |
 
-### ESC、Command + W、Tab、Shift+Tab
+### Command + Q、Command + W、ESC、Tab、Shift+Tab
 
 | キー      |  結果              | 
 |:----------|:------------------:|
+| 英数 + q  |  left_commnad + Q  |
 | 英数 + w  |  left_command + W  |
 | 英数 + e  |  ESC               |
 | 英数 + r  |  TAB               |
