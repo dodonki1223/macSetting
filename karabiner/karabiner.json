@@ -1709,19 +1709,19 @@
                                     }
                                 },
                                 "to": [
-                                        { 
-                                            "key_code": "left_arrow",
-                                            "modifiers": [
-                                                "left_option"
-                                            ] 
-                                        },
-                                        { 
-                                            "key_code": "right_arrow",
-                                            "modifiers": [
-                                                "left_option",
-                                                "left_shift"
-                                            ] 
-                                        }
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": [
+                                            "left_option"
+                                        ]
+                                    },
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": [
+                                            "left_option",
+                                            "left_shift"
+                                        ]
+                                    }
                                 ],
                                 "type": "basic"
                             },
@@ -1880,6 +1880,27 @@
                                         "modifiers": [
                                             "right_command"
                                         ]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "CapsLockキーの切り替え",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "right_option"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "caps_lock"
                                     }
                                 ],
                                 "type": "basic"
