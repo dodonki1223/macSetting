@@ -1,6 +1,6 @@
-# キー関連の設定スクリプト
+# キーのリピート設定スクリプト
 
-こちらの記事を参考というかそのまま丸パクリで記述しています
+こちらの記事を参考というかそのまま丸パクリで記述しています  
 [[Mac] キーボードの反応速度を速くする方法 2 ｜ DevelopersIO](https://dev.classmethod.jp/tool/mac-keyboard-speed-2/)
 
 ### キーのリピート入力認識までの時間設定
@@ -11,7 +11,7 @@
 $ defaults write -g InitialKeyRepeat -int 13
 ```
 
-`-int 13`の部分が値で、1 = 15msを意味する
+`-int 13`の部分が値で、1 = 15msを意味する  
 **システム環境設定の上限値は15 = 225ms**
 
 設定されたかどうかを確認するコマンドは下記になります
@@ -28,7 +28,7 @@ $ defaults read -g InitialKeyRepeat
 $ defaults write -g KeyRepeat -int 1 
 ```
 
-`-int 1`の部分が値で、1 = 15msを意味する
+`-int 1`の部分が値で、1 = 15msを意味する  
 **システム環境設定の上限値は2 = 30ms**
 
 設定されたかどうかを確認するコマンドは下記になります

@@ -7,3 +7,6 @@
 
 ### karabiner-elements
 - キーの書き換え設定
+
+### KeyRepeat
+- キーのリピート設定スクリプト
