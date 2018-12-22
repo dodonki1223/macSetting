@@ -13,3 +13,6 @@
 
 ### FinderKey
 - Finderの独自キー設定
+
+### ThreeFingerDrag
+- ３本指ドラッグの有効設定スクリプト
