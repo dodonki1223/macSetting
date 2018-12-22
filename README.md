@@ -12,7 +12,7 @@
 - キーのリピート設定スクリプト
 
 ### FinderKey
-- Finderの独自キー設定
+- Finderの独自キー設定スクリプト
 
 ### ThreeFingerDrag
 - ３本指ドラッグの有効設定スクリプト
