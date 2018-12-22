@@ -10,3 +10,6 @@
 
 ### KeyRepeat
 - キーのリピート設定スクリプト
+
+### FinderKey
+- Finderの独自キー設定
