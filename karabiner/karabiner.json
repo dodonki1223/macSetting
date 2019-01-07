@@ -1930,6 +1930,34 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "description": "選択している文字をGoogleで検索する（規定のブラウザ）",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "g",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["left_command"]
+                                    },
+                                    {
+                                        "shell_command": "open https://www.google.co.jp/search?q=$(pbpaste)"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
