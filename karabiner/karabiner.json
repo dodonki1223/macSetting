@@ -467,7 +467,7 @@
                         ]
                     },
                     {
-                        "description": "[Chrome]リロード、アドレスバーへフォーカス、新規タブ、タブを閉じる、新規ウィンドウ、シークレットウィンドウ、ダウンロード、検索、DeveloperToolの起動",
+                        "description": "[Chrome]リロード、アドレスバーへフォーカス、新規タブ、タブを閉じる、新規ウィンドウ",
                         "manipulators": [
                             {
                                 "conditions": [
@@ -588,7 +588,12 @@
                                     }
                                 ],
                                 "type": "basic"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "description": "[Chrome]シークレットウィンドウ、ダウンロード、検索、DeveloperToolの起動、Home、End",
+                        "manipulators": [
                             {
                                 "conditions": [
                                     {
@@ -802,9 +807,66 @@
                                     }
                                 ],
                                 "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.google\\.Chrome"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "h",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_arrow",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.google\\.Chrome"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "semicolon",
+                                    "modifiers": {
+                                        "mandatory": [
+                                            "fn"
+                                        ],
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_arrow",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
                             }
                         ]
                     },
+
                     {
                         "description": "カーソル移動系(→、←、↑、↓、Home、End、PageUp、PageDown)の設定",
                         "manipulators": [
