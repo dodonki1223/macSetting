@@ -58,8 +58,6 @@ Karabinerとは別でMacのキーボードの設定で下記設定をOS側の機
 | left_control + j              |  ダウンロード             |
 | left_control + f              |  検索                     |
 | left_control + left_shift + i |  Developer Toolの表示     |
-| かな + h                      |  left_commnad + ←        |
-| かな + ;                      |  left_commnad + →        |
 
 ### カーソルの移動系のキー設定
 
