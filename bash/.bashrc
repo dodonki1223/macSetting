@@ -7,6 +7,9 @@ alias ll='ls -l'
 # laコマンドを設定
 alias la='ls -la'
 
+# ssh接続ツールのエイリアスを設定（独自ツール）
+alias sshc='sh ssh_connection.sh'
+
 #***********************************************
 #* Gitのリポジトリの時                         *
 #*   Gitのリポジトリだとわかるように表示させる *
@@ -26,3 +29,4 @@ source /usr/local/etc/bash_completion.d/git-completion.bash
 #      addされてない変更(unstaged)があったとき"*"を表示する、addされているがcommitされていない変更(staged)があったとき"+"を表示する
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
+
