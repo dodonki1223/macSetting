@@ -6,11 +6,11 @@ source ~/.bashrc
 #*****************************
 #* PATHを通す                *
 #*****************************
+# ssh接続ツールのパスを通す
+export SSH_C="$HOME/Tool/ssh_connection/"
+
 # mysqlのにパスを通す
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-
-# ssh接続ツールのパスを通す
-export PATH="$HOME/Tool/ssh_connection/bin:$PATH"
 
 # GitのPATHの優先度をHomebrewでインストールしたものにする
 export PATH=/usr/local/bin:$PATH
