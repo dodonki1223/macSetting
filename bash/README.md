@@ -16,10 +16,12 @@
 
 - .bashrcファイルの読み込み
 - PATHを通す
-    - mysql
     - ssh接続ツールへのディレクトリ
+    - mysql
+    - GO
     - Homebrewでインストールしたgit
     - GitリポジトリだとわかるようにPS1を変更
+- anyenvの設定
 
 ## .bashrc
 
@@ -30,4 +32,6 @@
         - ls -la
     - `sshc`コマンド
         - sh ssh_connection.sh
+    - `hosts`コマンド
+        - VSCodeでhostsファイルを開く
 - Gitのリポジトリだとわかるように、Gitの補完機能を追加

@@ -10,6 +10,9 @@ alias la='ls -la'
 # ssh接続ツールのエイリアスを設定（独自ツール）
 alias sshc='sh $SSH_C/ssh_connection.sh'
 
+# hostsファイルをVsCodeで開く
+alias hosts='sudo code /private/etc/hosts'
+
 #***********************************************
 #* Gitのリポジトリの時                         *
 #*   Gitのリポジトリだとわかるように表示させる *

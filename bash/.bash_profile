@@ -12,6 +12,10 @@ export SSH_C="$HOME/Tool/ssh_connection/"
 # mysqlのにパスを通す
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
+# GOにパスを通す
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+
 # GitのPATHの優先度をHomebrewでインストールしたものにする
 export PATH=/usr/local/bin:$PATH
 
@@ -22,6 +26,6 @@ export PATH=/usr/local/bin:$PATH
 #   変更方法はhttps://qiita.com/zaburo/items/9194cd9eb841dea897a0を参照
 export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n\$ '
 
-# rbenvをシェルにフックさせるための設定
-# 詳しくはここを参照することhttps://github.com/rbenv/rbenv#how-rbenv-hooks-into-your-shell
-eval "$(rbenv init -)"
+# anyenvの設定
+export PATH="$HOME/.anyenv/bin:$PATH"
+eval "$(anyenv init -)"
