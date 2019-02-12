@@ -114,16 +114,17 @@ Karabinerとは別でMacのキーボードの設定で下記設定をOS側の機
 | 英数 + n  |  8     |
 | 英数 + ,  |  9     |
 
-### Command + Q、Command + W、強制終了ウィンドウを表示、ESC、Tab、Shift+Tab
+### Command + Q、Command + W、アクティビティモニタを起動、強制終了ウィンドウを表示、ESC、Tab、Shift+Tab
 
-| キー                |  結果                      | 
-|:--------------------|:--------------------------:|
-| 英数 + q            |  left_commnad + Q          |
-| 英数 + w            |  left_command + W          |
-| 英数 + command + e  |  強制終了ウィンドウを表示  |
-| 英数 + e            |  ESC                       |
-| 英数 + r            |  TAB                       |
-| 英数 + t            |  Shift + TAB               |
+| キー                          |  結果                       | 
+|:------------------------------|:---------------------------:|
+| 英数 + q                      |  left_commnad + Q           |
+| 英数 + w                      |  left_command + W           |
+| 英数 + control + command + e  |  アクティビティモニタを起動 |
+| 英数 + command + e            |  強制終了ウィンドウを表示   |
+| 英数 + e                      |  ESC                        |
+| 英数 + r                      |  TAB                        |
+| 英数 + t                      |  Shift + TAB                |
 
 ### Enter、BackSpace、DELETE、単語選択、スクリーンショット
 
